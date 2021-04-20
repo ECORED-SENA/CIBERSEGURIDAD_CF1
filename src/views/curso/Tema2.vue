@@ -5,8 +5,8 @@
     .titulo-principal
       .titulo-principal__numero
         .h3
-          i.fas.fa-info
-      .h3 2. Seguridad de la información
+          i.num-title 2
+      .h3 Seguridad de la información
     
     .row
       .col-12.col-lg-7.align-center

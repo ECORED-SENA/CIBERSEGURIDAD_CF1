@@ -5,8 +5,8 @@
     .titulo-principal
       .titulo-principal__numero
         .h3
-          i.fas.fa-info
-      .h3 4. La identificación de los activos 
+          i.num-title 4
+      .h3 La identificación de los activos 
     .row.mt-5
       .col-12.align-end
         .titulo-segundo

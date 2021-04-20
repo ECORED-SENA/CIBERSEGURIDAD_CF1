@@ -5,8 +5,8 @@
     .titulo-principal
       .titulo-principal__numero
         .h3
-          i.fas.fa-info
-      .h3 3. Activos de información
+          i.num-title 3
+      .h3 Activos de información
     .row
       .col-12.col-lg-7.align-self-center
         p.mt-3 El concepto de seguridad de la información significa proteger la información y los sistemas de información de un acceso, uso, divulgación, alteración, modificación, lectura, inspección, registro o destrucción no autorizados. Soriano, M. (2014).

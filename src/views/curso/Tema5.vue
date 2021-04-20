@@ -5,8 +5,8 @@
     .titulo-principal
       .titulo-principal__numero
         .h3
-          i.fas.fa-info
-      .h3 5. Actividades para realizar el inventario de activos 
+          i.num-title 5
+      .h3 Actividades para realizar el inventario de activos 
     p.mt-5 De acuerdo a la norma #[strong ISO 27001] sobre la cual basamos el desarrollo de este componente formativo las siguientes son las actividades que deben de ejecutarse en el proceso de control de los activos informáticos.
     .row.mt-5
       .col-12.align-end

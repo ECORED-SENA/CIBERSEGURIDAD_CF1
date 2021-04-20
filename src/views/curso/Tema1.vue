@@ -5,8 +5,8 @@
     .titulo-principal
       .titulo-principal__numero
         .h3
-          i.fas.fa-info
-      .h3 1. Ciberseguridad
+          i.num-title 1
+      .h3 Ciberseguridad
     
     .row
       .col-12.col-lg-7.align-center
