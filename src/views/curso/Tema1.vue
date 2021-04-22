@@ -29,14 +29,14 @@
 
     .row.mt-5
       .col-12
-        TabsB.mb-5.borde-bot-punteado.pb-5
-          .py-2.py-md-3(titulo="Prevención")
+        TabsC.mb-5
+          .py-2.py-md-3(titulo="Prevención") 
             .row.mt-4
               .col-lg-6.d-none.d-lg-flex.align-self-center
                 figure
                   img(src='@/assets/template/tema-1-2.svg', alt='')
               .col-md-10.col-lg-6.mb-4.mb-md-0.align-self-center.offset-sm-1.offset-lg-0
-                .h4 Prevención
+                .h5 Prevención
                 p.pr-4 Esta es la primera fase que ayudará de manera significativa en la disminución de los riesgos, actuar de manera temprana implica conocer nuestros activos o recursos tecnológicos usados en la organización y realizar un análisis de las posibles amenazas y la forma en que podríamos prevenirlas o contrarrestarlas, en esta fase es de gran importancia la concienciación que se debe de hacer en todos los miembros de la organización, prepararlos, capacitarlos y crearles conciencia permitirá que se cometen un número menor de errores que muchas veces por desconocimiento generan vulnerabilidades y riesgos que pueden ser prevenidos y detectados con anterioridad.
   
           .py-2.py-md-3(titulo="Localización")
@@ -45,7 +45,7 @@
                 figure
                   img(src='@/assets/template/tema-1-3.svg', alt='')
               .col-md-10.col-lg-6.mb-4.mb-md-0.align-self-center.offset-sm-1.offset-lg-0
-                .h4 Localización
+                .h5 Localización
                 p Luego de prevenir, debemos concentrarnos en la adquisición e implementación de una serie de herramientas tecnológicas que nos permitan en caso de presentarse algún tipo de incidente poder localizar su fuente y afectación a fin de tomar las acciones correctivas a que dieran lugar.
                 p.mt-3 Esto se logra cuando las medidas y herramientas empleadas están haciendo un constante monitoreo y gestión sobre los recursos tecnológicos, normalmente cuando se detectan los incidentes estos ya han ocurrido muchos días antes ya que cada vez los atacantes utilizan más herramientas y estrategias avanzadas que dificultan su detección, de ahí la importancia de un constante monitoreo sobre sus recursos y servicios tecnológicos.
               
@@ -55,7 +55,7 @@
                 figure
                   img(src='@/assets/template/tema-1-4.svg', alt='')
               .col-md-10.col-lg-6.mb-4.mb-md-0.align-self-center.offset-sm-1.offset-lg-0
-                .h4 Reacción
+                .h5 Reacción
                 p Una vez se detecte una posible amenaza se debe realizar una reacción inmediata que permita su mitigación, para esto se recomienda seguir los siguientes pasos:
                 .col-sm.mb-5.mb-sm-0.mt-4.offset-md-1
                   ul.lista-ul
@@ -85,7 +85,7 @@
         p Si bien se debe elegir un marco y trabajar con él, son solo una referencia y no una solución definitiva porque también es importante el enfoque del análisis de riesgos del cual hablaremos más adelante, cada marco propone una serie de controles, se debe elegir cuales son aplicables a mi entorno y si se llegase a requerir hacer adopción o ajustes de otros marcos de referencia.
         p.mt-4 A continuación, se definen los marcos de referencia más utilizados y de mayor desarrollo incluyendo algunos propósitos particulares para su adopción:
       .col-12.mt-5
-        p.font-subtitle #[strong 1.3.1 NIST CSF] #[i (National Institute of Standards and Technology - Cybersecurity Framework)] - Marco de Ciberseguridad del Instituto Nacional de Estándares y Tecnología.
+        .h5 #[strong 1.3.1 NIST CSF] #[i (National Institute of Standards and Technology - Cybersecurity Framework)] - Marco de Ciberseguridad del Instituto Nacional de Estándares y Tecnología.
 
     .row.mt-5
       .col-12.p-4.bg-color-c.rounded-top
@@ -107,11 +107,10 @@
         a(href="https://www.ftc.gov/es/system/files/attachments/understanding-nist-cybersecurity-framework/cybersecurity_sb_nist-cyber-framework-es.pdf " target="_blank")
           img(src="@/assets/template/pdf-icon.svg", alt="alt").w-50
       
-    .row
-      .col-12
-        p.font-subtitle #[strong 1.3.2 ISO / IEC 27001: 2013]
-        p.mt-5 Este marco, creado y publicado por la Organización Internacional de Normalización (ISO), es un marco general que funciona bien para empresas de diversos tamaños en una variedad de industrias. Es similar al NIST CSF. El marco es respetado y ampliamente conocido internacionalmente. El enfoque de ISO 27001 es la protección de la confidencialidad, integridad y disponibilidad de la información en una empresa. 
-        p.mt-5 Su filosofía se basa en la gestión de riesgos: investigar dónde están y luego tratarlos de manera sistemática.
+    
+    .h5.mt-5 #[strong 1.3.2 ISO / IEC 27001: 2013]
+    p.mt-5 Este marco, creado y publicado por la Organización Internacional de Normalización (ISO), es un marco general que funciona bien para empresas de diversos tamaños en una variedad de industrias. Es similar al NIST CSF. El marco es respetado y ampliamente conocido internacionalmente. El enfoque de ISO 27001 es la protección de la confidencialidad, integridad y disponibilidad de la información en una empresa. 
+    p.mt-5 Su filosofía se basa en la gestión de riesgos: investigar dónde están y luego tratarlos de manera sistemática.
 
     .row.mt-5
       .col-2.align-self-center
@@ -249,7 +248,7 @@
         p.text-small Fases y Actividades ISO 27001:2013
         i.text-small Tomada de https://www.magazcitum.com.mx/?p=2397#.X58QqYhKhP
       .col-12.mt-5
-          p.font-subtitle #[strong 1.3.3 COBIT ] (Objetivos de control para información y tecnologías relacionadas. En inglés Control Objectives for Information and related Technology)
+          .h5 #[strong 1.3.3 COBIT ] (Objetivos de control para información y tecnologías relacionadas. En inglés Control Objectives for Information and related Technology)
           p.mt-5 COBIT fue desarrollado por ISACA, una organización global independiente sin fines de lucro que se enfoca en el gobierno de TI. Este marco es similar al marco de NIST e ISO, ya que es un marco más general que la mayoría de las organizaciones pueden usar. 
           p.mt-4 Es una guía de mejores prácticas, dirigida al control y supervisión de TI. Cuenta con una serie de recursos que pueden servir de modelo de referencia para la gestión de TI, incluyendo objetivos de control, mapas de auditoría, herramientas para su implementación y una guía de técnicas de gestión.
     .row.mt-5
@@ -262,15 +261,15 @@
         i.text-small https://www.isaca.org/-/media/files/isacadp/project/isaca/articles/journal/2018/volume-6/advancing-information-advancing-technology-advancing-cobit_joa_eng_1218.pdf
     .row.mt-5
       .col-12.mt-5
-          p.font-subtitle #[strong 1.3.4 HITRUST CSF ] (Health Information Trust Alliance - Cybersecurity Framework)
+          .h5 #[strong 1.3.4 HITRUST CSF ] (Health Information Trust Alliance - Cybersecurity Framework)
           p.mt-5 HITRUST CSF fue desarrollado por Health Information Trust Alliance (HITRUST) y es el marco de seguridad más adoptado en la industria de la salud de los Estados Unidos. HITRUST originalmente desarrolló su CSF (Cybersecurity Framework en español Marco de ciberseguridad) para enfocarse en elementos clave y riesgos inherentes a la industria de la salud, como las consideraciones de HIPAA (Ley de Responsabilidad y Portabilidad de Seguros de Salud), pero desde entonces han actualizado el marco con controles más amplios que se aplicarían a cualquier organización.
     .row.mt-5
       .col-12.rounded-15(style="background-color: RGBA(217,228,234,0.50);").p-4
         img(src="@/assets/template/tema-1-9.svg", alt="alt")
     .row.mt-5
       .col-12.mt-3
-          p.font-subtitle #[strong 1.3.5 CSA Cloud Controls Matrix] 
-          p.mt-4 La Cloud Controls Matrix fue desarrollada por Cloud Security Alliance (CSA) específicamente para los proveedores de la nube. La estructura del almacenamiento de datos en la nube conlleva riesgos únicos que requieren controles de seguridad específicos, que se establecen en este marco. La matriz de controles de la nube se actualiza con frecuencia y es útil para los proveedores de la nube de cualquier tamaño.
+          .h5 #[strong 1.3.5 CSA Cloud Controls Matrix] 
+          p.mt-5 La Cloud Controls Matrix fue desarrollada por Cloud Security Alliance (CSA) específicamente para los proveedores de la nube. La estructura del almacenamiento de datos en la nube conlleva riesgos únicos que requieren controles de seguridad específicos, que se establecen en este marco. La matriz de controles de la nube se actualiza con frecuencia y es útil para los proveedores de la nube de cualquier tamaño.
     .row.mt-4
       .col-3
         img(src="@/assets/template/tema-1-10.svg", alt="alt")

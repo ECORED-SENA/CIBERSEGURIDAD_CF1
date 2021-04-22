@@ -126,7 +126,7 @@
         .titulo-segundo
           #t_5_3.h4 5.3 Clasificación de la Información
         p.mt-4 La información se debería clasificar en función de los requisitos legales, valor, criticidad y susceptibilidad a divulgación o a modificación no autorizada, El sistema de clasificación definido se basa en la confidencialidad como principio rector en la selección e incluye el tratamiento de la información en cuanto a la confidencialidad, la integridad y la disponibilidad de cada activo.
-      .col-8.offset-2.mt-4
+      .col-8.offset-2.mt-5
         h6.text-center En esta parte se debe agregar a la tabla ya existente de propiedad de los activos la siguiente información:
     .row.mt-2
       .col-md-6.col-lg-4.d-none.d-md-flex.offset-lg-2
@@ -140,10 +140,10 @@
         p.mt-1 #[strong.texto-c 6.] Confidencialidad (Alta – Media – Baja).
         p.mt-1 #[strong.texto-c 7.] Disponibilidad (Alta – Media – Baja).
         p.mt-1 #[strong.texto-c 8.] Integridad (Alta – Media – Baja).
-    .row.mt-3
+    .row.mt-4
       .col-12
         p En esta parte para realizar una correcta clasificación de activos según la confidencialidad, integridad y disponibilidad se recomienda la utilización de las siguientes tablas.
-        p.mt-4 La confidencialidad se refiere a que la información no esté disponible ni sea revelada a individuos, entidades o procesos no autorizados, esta se debe definir de acuerdo con las características de los activos que se manejan en cada entidad.
+        p.mt-5 La confidencialidad se refiere a que la información no esté disponible ni sea revelada a individuos, entidades o procesos no autorizados, esta se debe definir de acuerdo con las características de los activos que se manejan en cada entidad.
       .col-8.offset-2.mt-4
           h6.text-center Tabla 1: Clasificación de acuerdo con la confidencialidad
     .row.mt-2
@@ -168,10 +168,10 @@
             p.text-white.text-center #[strong Público]
           .col-5.col-md-6.mx-1(style="border: solid 1px #A5BECB").align-self-center.p-2
             p Todas las personas, dentro y fuera de la organización, tienen acceso.
-    .row.mt-4
+    .row.mt-5
       .col-12
         p Para la integridad se refiere a la exactitud y completitud de la información (ISO 27000) esta propiedad es la que permite que la información sea precisa, coherente y completa desde su creación hasta su destrucción. Se recomienda el siguiente esquema de clasificación de tres (3) niveles:
-      .col-8.offset-2.mt-4
+      .col-8.offset-2.mt-5
           h6.text-center Tabla 2: Clasificación de acuerdo a la Integridad
     .row.mt-2
       .col-12
@@ -207,22 +207,22 @@
       .col-12
         .row
           .col-3.col-md-2.offset-2(style="background-color: #BD4343").p-2
-            p.text-white.text-center.mt-lg-2.mt-md-4 #[strong A]
+            p.text-white.text-center.mt-lg-2.mt-md-4 #[strong 1]
             p.text-white.text-center #[strong (Alta)]
           .col-5.col-md-6.mx-1(style="border: solid 1px #A5BECB").align-self-center.p-2
-            p Información cuya pérdida de exactitud y completitud puede conllevar un impacto negativo de índole legal o económica, retrasar sus funciones, o generar pérdidas de imagen severas de la entidad.
+            p La no disponibilidad de la información puede conllevar un impacto negativo de  índole legal o económica, retrasar sus funciones, o generar pérdidas de imagen severas a entes externos.
         .row.mt-1
           .col-3.col-md-2.offset-2(style="background-color: #FFC23B").p-2
-            p.text-black.text-center.mt-lg-2.mt-md-4 #[strong M]
+            p.text-black.text-center.mt-lg-2.mt-md-4 #[strong 2]
             p.text-black.text-center #[strong (Media)]
           .col-5.col-md-6.mx-1(style="border: solid 1px #A5BECB").align-self-center.p-2
-            p Información cuya pérdida de exactitud y completitud puede conllevar un impacto negativo de índole legal o económica, retrasar sus funciones, o generar pérdida de imagen moderado a funcionarios de la entidad.  
+            p La no disponibilidad de la información puede conllevar un impacto negativo de índole legal o económica, retrasar sus funciones, o generar pérdida de imagen moderado de la entidad.
         .row.mt-1
           .col-3.col-md-2.offset-2(style="background-color: #31924B").p-3.p-xl-2.align-self-center
-            p.text-white.text-center #[strong B]
+            p.text-white.text-center #[strong 3]
             p.text-white.text-center #[strong (Baja)]
           .col-5.col-md-6.mx-1(style="border: solid 1px #A5BECB").align-self-center.p-2
-            p Información cuya pérdida de exactitud y completitud conlleva un impacto no significativo para la entidad o entes externos.
+            p La no disponibilidad de la información puede afectar la operación normal de la entidad entes externos, pero no conlleva implicaciones legales, económicas o de pérdida de imagen.
         .row.mt-1
           .col-3.col-md-2.offset-2(style="background-color: #BD4343").p-3.p-xl-2
             p.text-white.text-center.mt-lg-4.mt-md-5 #[strong No clasificado]
@@ -261,20 +261,7 @@
               | Para los activos clasificados en disponibilidad como ALTA se utilizará la etiqueta 1, MEDIA, 2 y BAJA, 3.
     .row.mt-4
       .col-11.offset-1
-        p.text-center de esta manera se realizarán las combinaciones de acuerdo a los criterios de clasificación de la información.
-    .row.mt-5
-      .col-10.offset-1(style="background: linear-gradient(70deg, #9B235C, #131023);").rounded-15
-        .row  
-          .col-4.d-none.d-lg-flex
-            img(src="@/assets/template/tema-5-16.svg", alt="alt").img-18.position-absolute
-          .col-8.col-lg-4.py-4.text-center
-            h3.mb-0.text-white Caso de estudio
-          .col-4
-            .row.align-items-center
-              .col-sm-auto.mt-3.offset-lg-4
-                a.boton.boton--ca.boton.boton--b(:href="obtenerLink('/downloads/estudio_de_caso_cf1.pdf')" target="_blank")
-                  span Ver archivo >
-                  i.fas.fa-file-download
+        p.text-center De esta manera se realizarán las combinaciones de acuerdo a los criterios de clasificación de la información.
             
 
 

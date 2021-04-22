@@ -156,6 +156,13 @@ export const menuPrincipal = {
         },
       ],
     },
+    {
+      nombreRuta: 'tema6',
+      icono: 'far fa-file-alt',
+      numero: '6',
+      titulo: 'Caso de estudio',
+      desarrolloContenidos: true,
+    },
   ],
   subMenu: [
     // {
@@ -194,15 +201,10 @@ export const menuPrincipal = {
 
 export const creditos = {
   liderEquipo: {
-    nombre: 'Henry Eduardo Bastidas Paruma',
-    cargo: 'Instructor',
+    nombre: 'Maria Camila Garcia Santamaria',
+    cargo: 'Líder del equipo',
   },
   contenidoInstruccional: [
-    {
-      nombre: 'Carlos Andrés Rodríguez',
-      cargo: 'Diseñador Instruccional',
-      centro: 'Centro de Diseño y Metrología',
-    },
     {
       nombre: 'Rafael Neftalí Lizcano Reyes',
       cargo: 'Asesor pedagógico',
@@ -210,10 +212,69 @@ export const creditos = {
       regional: 'Regional Santander',
     },
     {
+      nombre: 'Henry Eduardo Bastidas Paruma',
+      cargo: 'Experta temático',
+      centro: 'Centro de Comercio y Servicios',
+      regional: 'Regional Tolima',
+    },
+    {
+      nombre: 'Carlos Andrés Rodríguez',
+      cargo: 'Diseñador Instruccional',
+      centro: 'Centro de Diseño y Metrología',
+      regional: 'Regional Distrito Capital',
+    },
+    {
       nombre: 'Oscar Absalón Guevara',
       cargo: 'Evaluador Instruccional',
-      centro: 'Centro de Gestión Industrial ',
-      regional: 'Regional Bogotá',
+      centro: 'Centro de Gestión Industrial',
+      regional: 'Regional Distrito Capital',
+    },
+    {
+      nombre: 'María Isabel Román Rueda',
+      cargo: 'Revisora de estilo',
+      centro: 'Centro Industrial del Diseño y la Manufactura',
+      regional: 'Regional Santander',
+    },
+  ],
+  desarrolloProducto: [
+    {
+      nombre: 'Francisco José Lizcano Reyes',
+      cargo: 'Responsable del equipo',
+    },
+    {
+      nombre: 'Leyson Fabian Castaño Perez',
+      cargo: 'Soporte organizacional',
+    },
+    {
+      nombre: [
+        'Eulises Orduz Amezquita',
+        'José Jaime Luis Tang Pinzón',
+        'Maria Camila Ovalle Ospina',
+        'Lady Adriana Ariza Luque',
+        'Oleg Litvin',
+        'Wilson Andres Arenales Cáceres',
+      ],
+      cargo: 'Diseño web y Producción Audiovisual',
+    },
+    {
+      nombre: [
+        'Daniel Ricardo Mutis Gómez',
+        'Jhon Jairo Urueta Alvarez',
+        'Lizeth Karina Manchego Suarez',
+      ],
+      cargo: 'Desarrollo Front-End',
+    },
+    {
+      centro: 'Centro Industrial del Diseño y la Manufactura',
+      regional: 'Regional Santander',
+    },
+  ],
+  gestoresRepositorio: [
+    {
+      nombre: 'Milady Tatiana Villamil Castellanos',
+      cargo: ['Validación de recursos'],
+      centro: 'Centro de comercio y servicios',
+      regional: 'Regional Tolima',
     },
   ],
 }
