@@ -190,7 +190,7 @@
               .col-5.offset-1.align-self-center
                 p.text-small #[strong - Recursos.]
                 p.text-small #[strong - Competencias.]
-                p.text-small #[strong - Comunicación]
+                p.text-small #[strong - Conciencia.]
               .col-5.offset-1.align-self-center
                 p.text-small #[strong - Comunicación.]
                 p.text-small #[strong - Información documentada.]
