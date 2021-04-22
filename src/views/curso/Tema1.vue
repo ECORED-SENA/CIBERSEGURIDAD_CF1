@@ -248,7 +248,7 @@
         p.text-small Fases y Actividades ISO 27001:2013
         i.text-small Tomada de https://www.magazcitum.com.mx/?p=2397#.X58QqYhKhP
       .col-12.mt-5
-          .h5 #[strong 1.3.3 COBIT ] (Objetivos de control para información y tecnologías relacionadas. En inglés Control Objectives for Information and related Technology)
+          .h5Custom #[strong 1.3.3 COBIT ] (Objetivos de control para información y tecnologías relacionadas. En inglés Control Objectives for Information and related Technology)
           p.mt-5 COBIT fue desarrollado por ISACA, una organización global independiente sin fines de lucro que se enfoca en el gobierno de TI. Este marco es similar al marco de NIST e ISO, ya que es un marco más general que la mayoría de las organizaciones pueden usar. 
           p.mt-4 Es una guía de mejores prácticas, dirigida al control y supervisión de TI. Cuenta con una serie de recursos que pueden servir de modelo de referencia para la gestión de TI, incluyendo objetivos de control, mapas de auditoría, herramientas para su implementación y una guía de técnicas de gestión.
     .row.mt-5
@@ -261,7 +261,9 @@
         i.text-small https://www.isaca.org/-/media/files/isacadp/project/isaca/articles/journal/2018/volume-6/advancing-information-advancing-technology-advancing-cobit_joa_eng_1218.pdf
     .row.mt-5
       .col-12.mt-5
-          .h5 #[strong 1.3.4 HITRUST CSF ] (Health Information Trust Alliance - Cybersecurity Framework)
+          .h5Custom 
+          | #[strong 1.3.4 HITRUST CSF ] 
+          i (Health Information Trust Alliance - Cybersecurity Framework)
           p.mt-5 HITRUST CSF fue desarrollado por Health Information Trust Alliance (HITRUST) y es el marco de seguridad más adoptado en la industria de la salud de los Estados Unidos. HITRUST originalmente desarrolló su CSF (Cybersecurity Framework en español Marco de ciberseguridad) para enfocarse en elementos clave y riesgos inherentes a la industria de la salud, como las consideraciones de HIPAA (Ley de Responsabilidad y Portabilidad de Seguros de Salud), pero desde entonces han actualizado el marco con controles más amplios que se aplicarían a cualquier organización.
     .row.mt-5
       .col-12.rounded-15(style="background-color: RGBA(217,228,234,0.50);").p-4

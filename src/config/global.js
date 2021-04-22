@@ -361,60 +361,60 @@ export const glosario = [
   {
     termino: 'Activo',
     significado:
-      'El término de activo de información se relaciona con todos esos elementos tecnológicos o relacionados con la tecnología que la organización utiliza para el cumplimiento de sus metas o core del negocio. Según la norma ISO/IEC 27001 se entiende como activo todo aquello que es importante y que la organización valora por lo tanto debe de protegerse',
+      'el término de activo de información se relaciona con todos esos elementos tecnológicos o relacionados con la tecnología que la organización utiliza para el cumplimiento de sus metas o core del negocio. Según la norma ISO/IEC 27001 se entiende como activo todo aquello que es importante y que la organización valora por lo tanto debe de protegerse',
   },
   {
     termino: 'Activo Informático ',
     significado:
-      'Todo elemento tecnológico o relacionado con la tecnología necesario para que la organización cumpla con su misión y logre sus objetivos empresariales.',
+      'todo elemento tecnológico o relacionado con la tecnología necesario para que la organización cumpla con su misión y logre sus objetivos empresariales.',
   },
   {
     termino: 'Activo Tecnológico',
     significado:
-      'Todo equipo tecnológico o relacionado con la tecnología requerido para que la organización cumpla con su función o misión.',
+      'todo equipo tecnológico o relacionado con la tecnología requerido para que la organización cumpla con su función o misión.',
   },
   {
     termino: 'Amenaza',
     significado:
-      'Cualquier evento que puede afectar los activos de información y se relaciona, principalmente, con recursos humanos, eventos naturales o fallas técnicas.',
+      'cualquier evento que puede afectar los activos de información y se relaciona, principalmente, con recursos humanos, eventos naturales o fallas técnicas.',
   },
   {
     termino: 'Confidencialidad',
     significado:
-      'Propiedad que determina que la información sólo esté disponible y sea revelada a individuos, entidades o procesos autorizados',
+      'propiedad que determina que la información sólo esté disponible y sea revelada a individuos, entidades o procesos autorizados',
   },
   {
     termino: 'Core',
     significado:
-      'Es una palabra en inglés, cuyo significado es "centro" o "núcleo".',
+      'es una palabra en inglés, cuyo significado es "centro" o "núcleo".',
   },
   {
     termino: 'Clasificación de la Información',
     significado:
-      'Se determina que la información pertenece a uno de los niveles de clasificación estipulados en la entidad. Tiene como objetivo asegurar que la información recibe el nivel de protección adecuado.',
+      'se determina que la información pertenece a uno de los niveles de clasificación estipulados en la entidad. Tiene como objetivo asegurar que la información recibe el nivel de protección adecuado.',
   },
   {
     termino: 'Coste',
-    significado: 'Conjunto de gastos para la producción de bienes y servicios.',
+    significado: 'conjunto de gastos para la producción de bienes y servicios.',
   },
   {
     termino: 'Disponibilidad',
     significado:
-      'Propiedad de que la información sea accesible y utilizable por solicitud de una entidad autorizada, cuando ésta así lo requiera.',
+      'propiedad de que la información sea accesible y utilizable por solicitud de una entidad autorizada, cuando ésta así lo requiera.',
   },
   {
     termino: 'Integridad',
     significado:
-      'Propiedad de salvaguardar la exactitud y estado completo de los activos',
+      'propiedad de salvaguardar la exactitud y estado completo de los activos',
   },
   {
     termino: 'Riesgo',
     significado:
-      'Es la posibilidad de que una amenaza se produzca, dando lugar a un ataque sobre un recurso o servicio tecnológico. Esto no es otra cosa que la probabilidad de que ocurra el ataque por parte de la amenaza.',
+      'es la posibilidad de que una amenaza se produzca, dando lugar a un ataque sobre un recurso o servicio tecnológico. Esto no es otra cosa que la probabilidad de que ocurra el ataque por parte de la amenaza.',
   },
   {
     termino: 'Valuar',
-    significado: 'Determinar o atribuir un valor a una cosa o persona.',
+    significado: 'determinar o atribuir un valor a una cosa o persona.',
   },
 ]
 
