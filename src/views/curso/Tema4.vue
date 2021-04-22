@@ -6,7 +6,10 @@
       .titulo-principal__numero
         .h3
           i.num-title 4
-      .h3 La identificación de los activos 
+      .h3 La identificación de los activos
+    .row
+      .col-12.col-lg-7.align-self-center
+        p Para la realización de este proceso se utilizará como referencia la norma ISO 27001:2017.
     .row.mt-5
       .col-12.align-end
         .titulo-segundo

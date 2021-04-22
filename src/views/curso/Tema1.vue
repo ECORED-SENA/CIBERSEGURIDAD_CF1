@@ -103,9 +103,9 @@
     .row.mt-0.bg-color-f.p-4.rounded-bot.align-items-center
       .col-8.col-md-7.col-lg-5.offset-md-1.offset-lg-3.text-center
         p.text-white Para más información sobre el Marco de Ciberseguridad del NIST y los recursos para negocio puede revisar: 
-      .col-3.col-md-2.col-lg-2.mt-3
+      .col-3.col-md-2.col-lg-2
         a(href="https://www.ftc.gov/es/system/files/attachments/understanding-nist-cybersecurity-framework/cybersecurity_sb_nist-cyber-framework-es.pdf " target="_blank")
-          img(src="@/assets/template/pdf-icon.svg", alt="alt").w-100
+          img(src="@/assets/template/pdf-icon.svg", alt="alt").w-50
       
     .row
       .col-12
@@ -188,10 +188,13 @@
             p.text-white.align-self-center #[strong 7. Soporte]
           .col-7.pl-5.py-2(style="background-color: RGBA(88,64,75,0.20);").rounded-right.margin-l-neg
             .row
-              .col-11.offset-1.align-self-center
+              .col-5.offset-1.align-self-center
                 p.text-small #[strong - Recursos.]
                 p.text-small #[strong - Competencias.]
                 p.text-small #[strong - Comunicación]
+              .col-5.offset-1.align-self-center
+                p.text-small #[strong - Comunicación.]
+                p.text-small #[strong - Información documentada.]
     
     .row.mt-0
       .col-2.align-self-center

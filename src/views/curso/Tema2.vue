@@ -90,7 +90,7 @@
     .row.mt-5
       .col-12
         .titulo-segundo
-          #t_2_5.h4 2.5
+          #t_2_5.h4 2.5 Riesgos y mecanismos de valuación
       .col-lg-6
         .bloque-texto-c.p-4
           h3.mb-2.mt-3.text-white El riesgo es la posibilidad de que una amenaza se produzca, dando lugar a un ataque sobre un recurso o servicio tecnológico. Esto no es otra cosa que la probabilidad de que ocurra el ataque por parte de la amenaza.

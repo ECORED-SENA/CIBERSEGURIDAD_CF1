@@ -9,8 +9,7 @@
       .h3 Activos de información
     .row
       .col-12.col-lg-7.align-self-center
-        p.mt-3 El concepto de seguridad de la información significa proteger la información y los sistemas de información de un acceso, uso, divulgación, alteración, modificación, lectura, inspección, registro o destrucción no autorizados. Soriano, M. (2014).
-        p.mt-3 Si bien son complementarias se debe diferenciar los conceptos de seguridad de la información, seguridad informática y seguridad en la red.
+        p.mt-3 El término de activo de información se relaciona con todos esos elementos tecnológicos o relacionados con la tecnología que la organización utiliza para el cumplimiento de sus metas o core del negocio. Según la norma ISO/IEC 27001 se entiende como activo todo aquello que es importante y que la organización valora por lo tanto debe de protegerse.
       .col-5.d-none.d-lg-block
         .imagen-titulo--izq
           figure
@@ -81,7 +80,7 @@
         p Para la valuación de activos, las metodologías utilizadas son las mismas que se mencionan en la valuación de riesgos informáticos, toda vez que este proceso inicia justamente con la identificación, clasificación y valuación de los activos, por ello es recomendable hacer la selección de una metodología que más se ajuste a la necesidad de cada empresa.
       .col-4.d-none.d-lg-flex
         img(src='@/assets/template/tema-3-9.svg', alt='')
-    BannerInformativo(info="Protegerse de los peligros de la actual coyuntura tecnológica nos lleva a diseñar y adoptar una serie de procesos que nos posibiliten la protección de sus activos, recursos e información y para ello se recomienda la aplicación de las siguientes fases:")
+    BannerInformativo(info="Para la selección de la metodología, se recomienda leer y profundizar nuevamente en cada uno de los apartados que se describieron en la temática de “riesgos y mecanismos de evaluación”.")
 </template>
 
 <script>
