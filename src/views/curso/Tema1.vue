@@ -85,7 +85,7 @@
         p Si bien se debe elegir un marco y trabajar con él, son solo una referencia y no una solución definitiva porque también es importante el enfoque del análisis de riesgos del cual hablaremos más adelante, cada marco propone una serie de controles, se debe elegir cuales son aplicables a mi entorno y si se llegase a requerir hacer adopción o ajustes de otros marcos de referencia.
         p.mt-4 A continuación, se definen los marcos de referencia más utilizados y de mayor desarrollo incluyendo algunos propósitos particulares para su adopción:
       .col-12.mt-5
-        .h5 #[strong 1.3.1 NIST CSF] #[i (National Institute of Standards and Technology - Cybersecurity Framework)] - Marco de Ciberseguridad del Instituto Nacional de Estándares y Tecnología.
+        .h5Custom #[strong 1.3.1 NIST CSF] #[i (National Institute of Standards and Technology - Cybersecurity Framework)] - Marco de Ciberseguridad del Instituto Nacional de Estándares y Tecnología.
 
     .row.mt-5
       .col-12.p-4.bg-color-c.rounded-top
