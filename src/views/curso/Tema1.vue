@@ -262,8 +262,8 @@
     .row.mt-5
       .col-12.mt-5
           .h5Custom 
-          | #[strong 1.3.4 HITRUST CSF ] 
-          i (Health Information Trust Alliance - Cybersecurity Framework)
+            | #[strong 1.3.4 HITRUST CSF ] 
+            i (Health Information Trust Alliance - Cybersecurity Framework)
           p.mt-5 HITRUST CSF fue desarrollado por Health Information Trust Alliance (HITRUST) y es el marco de seguridad más adoptado en la industria de la salud de los Estados Unidos. HITRUST originalmente desarrolló su CSF (Cybersecurity Framework en español Marco de ciberseguridad) para enfocarse en elementos clave y riesgos inherentes a la industria de la salud, como las consideraciones de HIPAA (Ley de Responsabilidad y Portabilidad de Seguros de Salud), pero desde entonces han actualizado el marco con controles más amplios que se aplicarían a cualquier organización.
     .row.mt-5
       .col-12.rounded-15(style="background-color: RGBA(217,228,234,0.50);").p-4

@@ -364,7 +364,7 @@ export const glosario = [
       'el término de activo de información se relaciona con todos esos elementos tecnológicos o relacionados con la tecnología que la organización utiliza para el cumplimiento de sus metas o core del negocio. Según la norma ISO/IEC 27001 se entiende como activo todo aquello que es importante y que la organización valora por lo tanto debe de protegerse',
   },
   {
-    termino: 'Activo Informático ',
+    termino: 'Activo Informático',
     significado:
       'todo elemento tecnológico o relacionado con la tecnología necesario para que la organización cumpla con su misión y logre sus objetivos empresariales.',
   },
